@@ -1,0 +1,25 @@
+#movies img, #movie img{
+    width: 100%;
+}
+
+@media(min-width:960px){
+#movies .col-md-3 .card{
+    height: auto;
+}
+
+#movies .col-md-3 img{
+    height: 240px;
+}
+}
+
+.loadingAnimation{
+    padding-left: 44%;
+    height: 100px;
+}
+
+#loading-box{
+    display: none;
+}
+#loading-box.active{
+    display: block;
+}
